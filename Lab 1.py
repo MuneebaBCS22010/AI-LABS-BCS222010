@@ -1,6 +1,6 @@
 #input
 txt=input("This is first python program")
-print(txt)\
+print(txt)
 
 #indentation
 x=1;
