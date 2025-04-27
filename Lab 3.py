@@ -73,7 +73,7 @@ while  start<=end:
     print(start,end=" ")
     start,b=b,start+b
 
-#program 10
+#program 
 for i in range(1,51):
     if i%3==0 and i%5==0:
        print("FizzBuzz")  
@@ -84,7 +84,7 @@ for i in range(1,51):
     else :
        print(i)  
 
-#program 11
+#program 10
 m=int(input(" Enter Row value"))
 n=int(input(" Enter col Value"))
 multi_list=[[0 for col in range(n)]for row in range(m)]
@@ -94,7 +94,7 @@ for row in range(m):
 
 print(multi_list) 
 
-#program 12
+#program 11
 lines=[]
 while True:
     l=input()
@@ -105,6 +105,14 @@ while True:
 
 for l in lines:
     print(l)
+
+#program 12
+binary_numbers = input("Enter comma-separated 4-digit binary numbers: ").split(',')
+divisible_by_5 = []
+for num in binary_numbers:
+    if int(num, 2) % 5 == 0:
+        divisible_by_5.append(num)
+print(",".join(divisible_by_5))
 
 #progarm 13
 str=input()
